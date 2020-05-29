@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">RQiFO34KBVw7GKFS6wMSnNvNvHtvoUO9EBhAxO4n</string>
+    <string name="back4app_client_key">BXS1ewgcZZHADw9Whw8oZAM7wdwMoyZJWwYp6JhB</string>
+    <string name="app_name">معهد النور</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="contact_us">اتصل بنا</string>
+
+</resources>

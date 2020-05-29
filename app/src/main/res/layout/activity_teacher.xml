@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Teacher"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:text="معهد النور"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:fontFamily="@font/myurdtype"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/myurdtype"
+            android:text="حساب الإدارة"
+            android:textSize="40sp"
+            android:gravity="center"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="30dp"
+        android:paddingTop="10dp"
+        >
+
+
+        <Spinner
+            android:id="@+id/classRoomSpinner"
+            android:autofillHints="اختر صفاً"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/newPay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_margin="5dp"
+        android:text="New Pay"
+        android:onClick="addNewPay"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/editWeekTable"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Edit Week Table"
+        android:textSize="18sp"
+        android:onClick="editWeekTableActivity"
+        android:background="@drawable/buttonshape"
+        />
+</LinearLayout>
+        <Button
+            android:id="@+id/newNotificationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:layout_margin="5dp"
+            android:text="New Notifications"
+            android:onClick="sendNotification"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/allPaysbtn"
+            android:onClick="getAllPays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="All Pays"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            />
+        <Button
+            android:id="@+id/allNotificationsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Notifications"
+            android:background="@drawable/buttonshape"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:onClick="getAllNotifications"
+
+            />
+
+        <Button
+            android:id="@+id/logout"
+            android:onClick="logoutfun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Logout"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

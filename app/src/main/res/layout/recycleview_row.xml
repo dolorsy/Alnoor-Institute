@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="horizontal"
+    android:background="#f7be16"
+    android:padding="20dp">
+
+    <TextView
+
+        android:id="@+id/studentName"
+        android:fontFamily="@font/mybfont"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="testtesttest"
+        android:textSize="20sp" />
+
+    <TextView
+
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentName"
+        android:layout_alignParentRight="true"
+        android:text="5000"
+        android:fontFamily="@font/mybfont"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/payDate"
+        android:fontFamily="@font/mybfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/money"
+        android:textSize="15sp"
+        android:text="22/5/2000" />
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SplashActivity">
+    |<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    app:srcCompat="@mipmap/ic_launcher_foreground"
+
+    tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        app:srcCompat="@drawable/tamayoz003"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <ProgressBar
+        android:id="@+id/myProgressbar"
+        android:indeterminateDrawable="@drawable/profress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:max="100"
+        android:progressDrawable="@drawable/colorage"
+
+        />
+    <TextView
+        android:id="@+id/pleaseWait"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:textSize="24sp"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:text="please Wait"
+
+        />
+
+</LinearLayout>

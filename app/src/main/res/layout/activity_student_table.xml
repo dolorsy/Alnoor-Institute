@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentTable">
+    <LinearLayout
+        android:id="@+id/studentTableMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+<TextView
+    android:text="Title Here"
+    style="@style/TextAppearance.AppCompat.Title"
+    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+    android:layout_marginTop="20dp"
+    android:id="@+id/weekTableTitle"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_weight="2"
+    android:layout_height="0dp" />
+        <TextView
+            android:text=" آخر تحديث 30/12/2030"
+            android:id="@+id/tableLastUpdate"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            />
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="الأحد:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            />
+        <TextView
+            android:id="@+id/stdTableSunday"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="الاثنين:"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/stdTableMonday"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="الثلاثاء:"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/stdTableTuesday"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="الاربعاء:"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/stdTableWednesday"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="الخميس:"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/stdTableThursday"
+            android:layout_marginTop="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="22sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            />
+
+    </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:textSize="20sp"
+             android:layout_margin="50dp"
+            android:background="@color/colorAccent"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="قم بأخذ لقطة شاشة احتياطا"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/theTopLayer"
+        android:background="#66000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ProgressBar
+            android:indeterminateDrawable="@drawable/profress"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:padding="150dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="24sp"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:paddingTop="15dp"
+            android:paddingRight="125dp"
+            android:layout_weight="1"
+            android:text="جار جلب البيانات"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

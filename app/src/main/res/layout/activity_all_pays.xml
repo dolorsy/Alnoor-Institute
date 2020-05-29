@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".allPays">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/payList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginTop="0dp"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:divider="#ffffff"
+        android:dividerHeight="10dp"
+        android:scrollingCache="false"/>
+    <Button
+        android:id="@+id/getMorebtn"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:gravity="center"
+        android:text="GetMore!"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="getMore"
+        />
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/allPaysWaitLayout"
+        android:layout_width="match_parent"
+        android:background="#65000000"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11"
+            android:padding="150dp"
+            android:indeterminateDrawable="@drawable/profress"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/mybfont"
+            android:gravity="center"
+            android:text="جاري الجلب ...."
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

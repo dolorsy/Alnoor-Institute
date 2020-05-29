@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "131710243767",
+    "firebase_url": "https://alnoornotification.firebaseio.com",
+    "project_id": "alnoornotification",
+    "storage_bucket": "alnoornotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131710243767:android:d76adc5997ed3266a80e32",
+        "android_client_info": {
+          "package_name": "com.alnoorinstitute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131710243767-f2knck6ue8tv0ke6h6865a5jqrtagcph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd5YTYI5J20XTth6-_XFW374xaxVCrl_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131710243767-f2knck6ue8tv0ke6h6865a5jqrtagcph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

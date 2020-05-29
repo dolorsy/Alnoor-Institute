@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewNotification">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:hint="    العنوان"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <EditText
+            android:hint="   المحتوى"
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/sendbtn"
+            android:text="send"
+            android:background="@drawable/buttonshape"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:onClick="Send"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sendNotifyWaitLayout"
+        android:background="#99000000"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:indeterminateDrawable="@drawable/profress"
+            android:padding="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+        <TextView
+            android:id="@+id/waitText"
+            android:gravity="center"
+            android:text="جاري الارسال ..."
+            android:textSize="40sp"
+            android:textColor="@color/colorPrimary"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

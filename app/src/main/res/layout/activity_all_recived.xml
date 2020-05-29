@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllRecived">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Get More!"
+            android:background="@drawable/buttonshape"
+            />
+    </LinearLayout>>
+
+    <LinearLayout
+        android:id="@+id/allRecivedWaitLayout"
+        android:background="#66000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:indeterminateDrawable="@drawable/profress"
+            android:layout_weight="11"
+            android:padding="150dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="جاري الجلب..."
+            android:gravity="center"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/mybfont"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
